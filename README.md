@@ -1,6 +1,12 @@
 # HappyPoison
 An implement for HappyPoison game with the interface of GUI and of command line.
 
+# Version
+v. 1.0.1
+
+# License
+MIT
+
 # Feature
 This game uses tkinter as gui libraries and, meanwhile, provides a command version.
 
@@ -26,4 +32,15 @@ Each agent has their own name and own IQ. Their IQ decides the depth of min-max 
 # Agents
 Four kinds of agents are developed.
 
-An intelligent Happy agent, an intelligent Poison agent, a Poison agent whose action pattern is random completely, and a Happy agent who can response to the control signs from the outside.
+   Intelligent Happy agent,
+   Intelligent Poison agent,
+   Poison agent whose action pattern is random completely, and
+   Happy agent who can response to the control signs from the outside.
+   
+# Usage
+Environment: Python 3.4 with support to TK.
+
+Run _*main.py*_ for GUI version, or run _*main_terminal.py*_ for command-line version.
+
+# Thanks
+Have a good day.
