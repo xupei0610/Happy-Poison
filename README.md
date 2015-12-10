@@ -1,23 +1,23 @@
 # HappyPoison
-An implement for HappyPoison game with the interface of GUI and of command line.
+An implement for HappyPoison game.
 
 # Version
-v. 1.0.1
+v. 1.0.2
 
 # License
 MIT
 
 # Feature
-This game uses tkinter as gui libraries and, meanwhile, provides a command version.
+This game uses Tcl/Tk as the GUI library and, meanwhile, provides a command-line version.
 
 The game supports Computer v.s. Computer and Human v.s. Computer.
 
 Multi-Happy-Players v.s. Multi-Poison-Players is supported in Computer v.s. Computer mode.
 
-This program uses a more efficient evalution system compared to the implement offered in CS4511's repository.
+This program uses a more efficient evaluation system compared to the implement offered in CS4511's repository.
 
 # Evaluation System
-The evaluation sytem of this game is based on min-max algorithm with alpha-beta pruning.
+The evaluation system of this game is based on min-max algorithm with alpha-beta pruning.
 
 It considers the distance between an agent and its possible goal. This distance has a weight of 10.
 
@@ -35,12 +35,12 @@ Four kinds of agents are developed.
    Intelligent Happy agent,
    Intelligent Poison agent,
    Poison agent whose action pattern is random completely, and
-   Happy agent who can response to the control signs from the outside.
-   
+   Happy agent, for human player, the agent who can response to the control signs from the outside.
+
 # Usage
 Environment: Python 3.4 with support to TK.
 
-Run _*main.py*_ for GUI version, or run _*main_terminal.py*_ for command-line version.
+Run _*main.py*_ .
 
 # Thanks
 Have a good day.
